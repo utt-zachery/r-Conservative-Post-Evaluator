@@ -41,7 +41,7 @@ To use the pre-scraped data included within the repository for r/Conservative an
 
 `python gui.py`
 
-![GUI screenshot](https://i.ibb.co/G7WRrkZ/GUI.png)
+![GUI screenshot](https://i.ibb.co/J3Q9tXw/image7.png)
 
 For evaluation purposes, everything that is needed is included within this command. Do not run any further commands, unless you wish to use the API.
 
