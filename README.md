@@ -1,3 +1,6 @@
+# Description
+This project seeks to scrape posts from r/Conservative and learn patterns from the content and language used to offer recommendations to the end user to make their post as favorable as possible. 24,000 reddit posts from were used to train a deep neural network to predict a karma score. Once trained, the model evaluates mutations to the post, enabling suggestions for the optimal posting time and alterations to the specific language used to maximize the predicted karma score. The output is visualized to the end user through an interactive GUI.
+
 # Example 1
 
 *Example 1*: **"Pelosi should be President"**. This post is predicted to perform poorly in a conservative subreddit. The model is highly confident that the provided text will score in the bottom quartile. Moreover, the model has identified that removing the word “Pelosi” would increase the prediction of the model; in other words, the word “Pelosi” in this context partially explains why the model predicted this post to perform so poorly. The user should instead choose a different word.
