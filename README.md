@@ -1,4 +1,16 @@
-﻿# Getting Started
+﻿# Example 1
+
+*Example 1*: **"Pelosi should be President"**. This post is predicted to perform poorly in a conservative subreddit. The model is highly confident that the provided text will score in the bottom quartile. Moreover, the model has identified that removing the word “Pelosi” would increase the prediction of the model; in other words, the word “Pelosi” in this context partially explains why the model predicted this post to perform so poorly. The user should instead choose a different word.
+
+![Example 1](https://i.ibb.co/7QDj6xw/image6.png)
+
+﻿# Example 2
+ 
+*Example 2*: **"Pelosi should be removed as Speaker"**. This post is predicted to perform well on the conservative subreddit. The model is highly confident in its assertion, and has identified that the words “Pelosi” and “removed” increases the likelihood that this post will perform well.
+
+![Example 2](https://i.ibb.co/tm5SM21/image1.png)
+
+# Getting Started
 
 This final project requires the following libraries (all of which should be included in the anaconda distribution):
 
